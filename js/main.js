@@ -7,7 +7,7 @@ const mesesDeOtonio = ["marzo", "abril", "mayo"]
 
 const mesesDeInvierno = ["junio", "julio", "agosto"]
 
-const mesesdeLaPrimavera = ["septiembre", "octubre","noviembre"]
+const mesesdePrimavera = ["septiembre", "octubre","noviembre"]
 
 
 
@@ -30,7 +30,7 @@ return mesesDeInvierno.includes(mes.toLowerCase())
 
 
 const primavera = (mes) => {
-return mesesdeLaPrimavera.includes(mes.toLowerCase())
+return mesesdePrimavera.includes(mes.toLowerCase())
 
 }
 
