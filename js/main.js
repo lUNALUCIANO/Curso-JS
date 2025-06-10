@@ -1,49 +1,36 @@
 
 
 
-const primerosTres = ["diciembre", "enero", "febrero" ]
+const mesesDeVerano = ["diciembre", "enero", "febrero" ]
 
-const segundoTres = ["marzo", "abril", "mayo"]
+const mesesDeOtonio = ["marzo", "abril", "mayo"]
 
-const terceroTres = ["junio", "julio", "agosto"]
+const mesesDeInvierno = ["junio", "julio", "agosto"]
 
-
+const mesesdeLaPrimavera = ["septiembre", "octubre","noviembre"]
 
 
 
 const verano = (mes) => {
-   return primerosTres.includes(mes.toLowerCase())  
+   return mesesDeVerano.includes(mes.toLowerCase())  
       
   }
 
 
 const otonio = (mes) => {
 
-  return segundoTres.includes(mes.toLowerCase())
+  return mesesDeOtonio.includes(mes.toLowerCase())
  
 }
 
 
 const invierno = (mes) => {
-return terceroTres.includes(mes.toLowerCase())
+return mesesDeInvierno.includes(mes.toLowerCase())
 }
 
 
 const primavera = (mes) => {
-  switch (mes){
-
-    case "septiembre":
-      return true
-    
-    case "octubre" :
-      return true
-
-    case "noviembre" :
-      return true
-
-    default :
-    return false
-  }
+return mesesdeLaPrimavera.includes(mes.toLowerCase())
 
 }
 
